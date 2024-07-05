@@ -35,34 +35,28 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="logo.png" alt="">
+        <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">KATO Solutions</h1> <span>.</span>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <!-- <li><a href="blog.html">Blog</a></li> -->
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="about.html" class="">About</a></li>
+          <!-- <li><a href="services.html" class="">Services</a></li> -->
+          <li class="dropdown" class=""><a href="services.html"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+              <li><a href="services.html">Our Services</a></li>
+              <li><a href="new-product-development.html">New Product Development</a></li>
+              <li><a href="steel-fabrication.html">Steel Fabrication</a></li>
+              <li><a href="ac-comprehensive-maintenance.html">A/C & Comprehensive Maintenance</a></li>
+              <li><a href="electrical-plumbing-support-services.html">Electrical & Plumbing Support Services</a></li>
+              <li><a href="bio-medical-equipment-repair.html">Bio Medical Equipment Repair</a></li>
+              <li><a href="finishing-demolish-services.html">Finishing & Demolish Services</a></li>
             </ul>
           </li>
+          <li><a href="projects.html" class="">Projects</a></li>
+          <!-- <li><a href="blog.html">Blog</a></li> -->
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -76,7 +70,7 @@
             <!-- Hero Section -->
 <section id="hero" class="hero section">
 
-    <div class="info d-flex align-items-center">
+    <!-- <div class="info d-flex align-items-center">
       <div class="container">
         <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-6 text-center">
@@ -86,7 +80,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
       <div class="carousel-item">
@@ -200,77 +194,104 @@
     <div class="container">
         <div class="row gy-4">
 
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-item position-relative">
+                    <div class="icon">
+                        <i class="fa-solid fa-building"></i>
+                    </div>
+                    <h3>Construction</h3>
+                    <p>Comprehensive construction services tailored to meet your specific needs. From planning and design to execution and finishing, we ensure every project is completed with the highest standards of quality and safety.</p>
+                    <a href="construction.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div><!-- End Service Item -->
+    
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 <div class="service-item position-relative">
                     <div class="icon">
-                    <i class="fa-solid fa-compass-drafting"></i>
+                        <i class="fa-solid fa-compass-drafting"></i>
                     </div>
                     <h3>New Product Development</h3>
-                    <p>Innovating new indusry production with cutting-edge technology. We bring your ideas to life with our expert development team.</p>
+                    <p>Innovating new industry production with cutting-edge technology. We bring your ideas to life with our expert development team, transforming concepts into reality through meticulous planning and execution.</p>
                     <a href="new-product-development.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
                 </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                <div class="service-item  position-relative">
-                    <div class="icon">
-                    <i class="fa-solid fa-mountain-city"></i>
-                    </div>
-                    <h3>Steel Fabrication</h3>
-                    <p>Precision-crafted steel structures tailored to meet your construction needs. Our expertise ensures durability, quality &amp; safty in every project.</p>
-                    <a href="steel-fabrication.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
-                </div>
-            </div>
-            <!-- End Service Item -->
-
+            </div><!-- End Service Item -->
+    
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="service-item position-relative">
                     <div class="icon">
-                    <i class="fa-solid bi-cone-striped"></i>
+                        <i class="fa-solid fa-mountain-city"></i>
                     </div>
-                    <h3>A/C &amp; Comprehensive Maintenance</h3>
-                    <p>Reliable maintenance services for air conditioning, electrical systems, plumbing, metal structures, cement, and wooden elements, ensuring optimal performance and longevity.</p>
-                    <a href="ac-comprehensive-maintenance.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+                    <h3>Steel Fabrication</h3>
+                    <p>Precision-crafted steel structures tailored to meet your construction needs. Our expertise ensures durability, quality, and safety in every project, delivering robust and reliable steel solutions.</p>
+                    <a href="steel-fabrication.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
                 </div>
-            </div>
-            <!-- End Service Item -->
-
+            </div><!-- End Service Item -->
+    
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="service-item position-relative">
                     <div class="icon">
-                    <i class="fa-solid fa-trowel-bricks"></i>
+                        <i class="fa-solid fa-cogs"></i>
                     </div>
-                    <h3>Electrical &amp; Plumbing Support Services</h3>
-                    <p>Expert electrical and plumbing support services, offering installation, maintenance, and troubleshooting to keep your systems running smoothly.</p>
-                    <a href="electrical-plumbing-support-services.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+                    <h3>Electrical and Electronic Repair</h3>
+                    <p>Expert repair services for electrical and electronic systems, ensuring optimal performance and longevity. Our skilled technicians handle everything from troubleshooting and diagnostics to repairs and maintenance.</p>
+                    <a href="electrical-electronic-repair.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
                 </div>
-            </div>
-            <!-- End Service Item -->
-
+            </div><!-- End Service Item -->
+    
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div class="service-item position-relative">
                     <div class="icon">
-                    <i class="fa-solid bi-heart-pulse"></i>
+                        <i class="fa-solid fa-snowflake"></i>
+                    </div>
+                    <h3>A/C and Refrigeration</h3>
+                    <p>Reliable A/C and refrigeration services to keep your systems running smoothly and efficiently. We offer installation, maintenance, and repair services to ensure your comfort and convenience.</p>
+                    <a href="ac-refrigeration.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div><!-- End Service Item -->
+    
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                <div class="service-item position-relative">
+                    <div class="icon">
+                        <i class="fa-solid bi-cone-striped"></i>
+                    </div>
+                    <h3>Comprehensive Maintenance</h3>
+                    <p>Reliable maintenance services for air conditioning, electrical systems, plumbing, metal structures, cement, and wooden elements. Our comprehensive approach ensures optimal performance and longevity of your assets.</p>
+                    <a href="comprehensive-maintenance.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div><!-- End Service Item -->
+    
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+                <div class="service-item position-relative">
+                    <div class="icon">
+                        <i class="fa-solid bi-heart-pulse"></i>
                     </div>
                     <h3>Bio Medical Equipment Repair</h3>
                     <p>Expert repair services for biomedical equipment, specializing in the precision repair of steel components. Our skilled technicians ensure your medical devices are restored to optimal performance, maintaining the highest standards of safety and reliability.</p>
                     <a href="bio-medical-equipment-repair.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
                 </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            </div><!-- End Service Item -->
+    
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="800">
                 <div class="service-item position-relative">
                     <div class="icon">
-                    <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+                        <i class="fa-solid fa-brush"></i>
                     </div>
-                    <h3>Finishing &amp; Demolish Services</h3>
-                    <p>High-quality finishing services to add the perfect final touch to your construction projects, ensuring a polished and professional look. Our demolish services provide safe and efficient removal of structures, preparing sites for new developments.</p>
-                    <a href="finishing-demolish-services.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+                    <h3>Finishing</h3>
+                    <p>High-quality finishing services to add the perfect final touch to your construction projects. Our expert team ensures a polished and professional look, enhancing the overall appeal and functionality of your spaces.</p>
+                    <a href="finishing.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
                 </div>
-            </div>
-            <!-- End Service Item -->
+            </div><!-- End Service Item -->
+    
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="900">
+                <div class="service-item position-relative">
+                    <div class="icon">
+                        <i class="fa-solid fa-wrecking-ball"></i>
+                    </div>
+                    <h3>Demolish</h3>
+                    <p>Safe and efficient demolition services to prepare sites for new developments. Our team ensures the controlled removal of structures with minimal disruption, following strict safety protocols and environmental standards.</p>
+                    <a href="demolish.html" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div><!-- End Service Item -->
         </div>
     </div>
 
@@ -329,91 +350,6 @@
 
 </section>
 <!-- /Alt Services Section -->
-
-<!-- _Gallery -->
-<section id="projects" class="projects section">
-    <div class="container section-title" data-aos="fade-up">
-        <h2>Projects</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-    </div><!-- End Section Title -->
-
-    <div class="container">
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-            <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                <li data-filter="*" class="filter-active">All</li>
-                <li data-filter=".filter-remodeling">Remodeling</li>
-                <li data-filter=".filter-construction">Construction</li>
-                <li data-filter=".filter-repairs">Repairs</li>
-                <li data-filter=".filter-design">Design</li>
-            </ul><!-- End Portfolio Filters -->
-
-            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-                
-                    <!-- _Project Item -->
-<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-remodeling">
-    <div class="portfolio-content h-100">
-        <img src="assets/img/projects/remodeling-1.jpg" class="img-fluid" alt="App 1" />
-        <div class="portfolio-info">
-            <h4>App 1</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur</p>
-            <a href="assets/img/projects/remodeling-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-        </div>
-    </div>
-</div>
-<!-- _/Project Item -->
-
-                
-                    <!-- _Project Item -->
-<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-construction">
-    <div class="portfolio-content h-100">
-        <img src="assets/img/projects/construction-1.jpg" class="img-fluid" alt="Product 1" />
-        <div class="portfolio-info">
-            <h4>Product 1</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur</p>
-            <a href="assets/img/projects/construction-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-        </div>
-    </div>
-</div>
-<!-- _/Project Item -->
-
-                
-                    <!-- _Project Item -->
-<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
-    <div class="portfolio-content h-100">
-        <img src="assets/img/projects/repairs-1.jpg" class="img-fluid" alt="Branding 1" />
-        <div class="portfolio-info">
-            <h4>Branding 1</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur</p>
-            <a href="assets/img/projects/repairs-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-        </div>
-    </div>
-</div>
-<!-- _/Project Item -->
-
-                
-                    <!-- _Project Item -->
-<div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
-    <div class="portfolio-content h-100">
-        <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="Books 1" />
-        <div class="portfolio-info">
-            <h4>Books 1</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur</p>
-            <a href="assets/img/projects/design-1.jpg" title="Books 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <!-- <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
-        </div>
-    </div>
-</div>
-<!-- _/Project Item -->
-
-                
-            </div><!-- End Portfolio Container -->
-        </div>
-    </div>
-</section>
-<!-- /Gallery Section -->
 
 <!-- Comments -->
 <section id="testimonials" class="testimonials section">
@@ -622,7 +558,7 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename"> <img src="logo.png" alt="">UpConstruction</span>
+            <span class="sitename">UpConstruction</span>
           </a>
           <div class="footer-contact pt-3">
             <p>A108 Adam Street</p>
